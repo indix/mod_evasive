@@ -1,6 +1,7 @@
 /*
 mod_evasive for Apache 2.4
 Copyright (c) by Jonathan A. Zdziarski
+Copyright (c) by Indix
 
 LICENSE
                                                                                 
@@ -38,7 +39,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "http_log.h"
 #include "http_request.h"
 
-module AP_MODULE_DECLARE_DATA evasive20_module;
+module AP_MODULE_DECLARE_DATA evasive24_module;
 
 /* BEGIN DoS Evasive Maneuvers Definitions */
 
@@ -686,7 +687,7 @@ static void register_hooks(apr_pool_t *p) {
   apr_pool_cleanup_register(p, NULL, apr_pool_cleanup_null, destroy_hit_list);
 };
 
-module AP_MODULE_DECLARE_DATA evasive20_module =
+module AP_MODULE_DECLARE_DATA evasive24_module =
 {
     STANDARD20_MODULE_STUFF,
     NULL,
