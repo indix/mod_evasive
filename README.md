@@ -212,6 +212,12 @@ You will also need to add this line if you are building with dynamic support:
 
 (This line is already added to your configuration by apxs)
 
+#### APACHE v2.4
+
+`LoadModule evasive24_module modules/mod_evasive24.so`
+
+(This line is already added to your configuration by apxs)
+
 ### NSAPI
 #### SunONE (iPlanet,Netscape) Configuration
                                                                                 
