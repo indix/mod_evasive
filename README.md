@@ -1,7 +1,11 @@
 Apache Evasive Maneuvers Module
+
 For Apache 1.3, 2.0, and 2.4
+
 Copyright (c) Deep Logic, Inc.
+
 Version 1.10 [2005.0117]
+
 
 ## LICENSE
 
