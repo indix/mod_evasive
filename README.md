@@ -52,6 +52,8 @@ Apache v1.3 API:	mod_evasive.c
 
 Apache v2.0 API:	mod_evasive20.c
 
+Apache v2.4 API:	mod_evasive24.c
+
 NSAPI (iPlanet):	mod_evasiveNSAPI.c *
 
 NOTE: mod_evasiveNSAPI is a port submitted by Reine Persson <reiper@rsv.se>
