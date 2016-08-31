@@ -1,12 +1,12 @@
 [![Build Status](https://snap-ci.com/ind9-ops/mod_evasive/branch/master/build_image)](https://snap-ci.com/ind9-ops/mod_evasive/branch/master)
-Apache Evasive Maneuvers Module
+
+# Apache Evasive Maneuvers Module
 
 For Apache 1.3, 2.0, and 2.4
 
 Copyright (c) Deep Logic, Inc.
 
-Version 1.10 [2005.0117]
-
+Version 1.11 [2016.0831]
 
 ## LICENSE
 
